@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="6dp">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/homeTeam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home"
+                />
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+                <Button
+                    android:id = "@+id/HomeDecre1incre1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/incr1"/>
+
+                <Button
+                    android:id = "@+id/HomeDecre1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/dec1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id = "@+id/HomeIncre2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/incr2"/>
+
+                <Button
+                    android:id = "@+id/HomeDecre2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/dec2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id = "@+id/homeIncre3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/incr3"/>
+
+                <Button
+                    android:id = "@+id/homeDecre3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/dec3"/>
+            </LinearLayout>
+
+            <Button
+
+                android:id = "@+id/homeTeamReset"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "@string/reset"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/awayTeam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/away"
+                />
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id = "@+id/awayTeamincre1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/incr1"/>
+
+                <Button
+                    android:id = "@+id/awayTeamdecre1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/dec1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal">
+                <Button
+
+                    android:id = "@+id/awayTeamIncre2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/incr2"/>
+
+                <Button
+                    android:id = "@+id/awayTeamdecre2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/dec2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal">
+                <Button
+
+                    android:id = "@+id/awayTeamIncre3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/incr3"/>
+
+                <Button
+
+                    android:id = "@+id/awayTeamdecre3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text = "@string/dec3"/>
+            </LinearLayout>
+
+            <Button
+
+                android:id = "@+id/awayTeamTeamReset"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "@string/reset"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="home">GameScore</string>
+    <string name="away">GameScore</string>
+
+    <string name="incr1">+1</string>
+    <string name="incr2">+2</string>
+    <string name="incr3">+3</string>
+    <string name="dec1">-1</string>
+    <string name="dec2">-2</string>
+    <string name="dec3">-3</string>
+
+    <string name="reset">reset</string>
+
+</resources>
