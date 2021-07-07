@@ -30,7 +30,7 @@
                 android:padding="5dp"
                 >
                 <Button
-                    android:id = "@+id/HomeDecre1incre1"
+                    android:id = "@+id/Homeincre1"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text = "@string/incr1"/>
@@ -101,13 +101,13 @@
                 android:layout_width="wrap_content"
                 android:orientation="horizontal">
                 <Button
-                    android:id = "@+id/awayTeamincre1"
+                    android:id = "@+id/awayTeamIncre1"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text = "@string/incr1"/>
 
                 <Button
-                    android:id = "@+id/awayTeamdecre1"
+                    android:id = "@+id/awayTeamDecre1"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text = "@string/dec1"/>
@@ -125,7 +125,7 @@
                     android:text = "@string/incr2"/>
 
                 <Button
-                    android:id = "@+id/awayTeamdecre2"
+                    android:id = "@+id/awayTeamDecre2"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text = "@string/dec2"/>
@@ -144,7 +144,7 @@
 
                 <Button
 
-                    android:id = "@+id/awayTeamdecre3"
+                    android:id = "@+id/awayTeamDecre3"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text = "@string/dec3"/>
